@@ -18,9 +18,7 @@ const Header = () => {
                 </ul>
             </nav>
         </figure>
-        <section>
-            <h3>--Content goes here--</h3>
-        </section>
+
     </header>
 }
 
