@@ -4,8 +4,7 @@ import Main from "./assets/img/components/Main"
 import Footer from "./assets/img/components/Footer"
 
 function App() {
-  return
-  <>
+  return <>
     <Header />
     <Main />
     <Footer />
