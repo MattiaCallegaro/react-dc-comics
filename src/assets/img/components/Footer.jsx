@@ -1,7 +1,7 @@
 
 const Footer = () => {
-    return <footer className="container">
-        <div className="footer-top">
+    return <footer>
+        <div className="footer-top container">
             <div className="footer-col">
                 <div>
                     <h4>DC COMICS</h4>
@@ -36,6 +36,19 @@ const Footer = () => {
                         <li><a href="#" className="active">Ratings</a></li>
                         <li><a href="#" className="active">Shop Help</a></li>
                         <li><a href="#" className="active">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div className="footer-col">
+                <div>
+                    <h4>SITES</h4>
+                    <ul>
+                        <li><a href="#" className="active">DC</a></li>
+                        <li><a href="#" className="active">MAD Magazine</a></li>
+                        <li><a href="#" className="active">DC Kids</a></li>
+                        <li><a href="#" className="active">DC Universe</a></li>
+                        <li><a href="#" className="active">DC Power Visa</a></li>
+
                     </ul>
                 </div>
             </div>
