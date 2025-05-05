@@ -59,8 +59,34 @@ section {
   height: 4.5rem;
 }
 
+/* `MAIN */
 section h3 {
   color: white;
   margin-left: 10rem;
+}
 
+menu {
+  display: flex;
+  background-color: rgb(0, 140, 255);
+  height: 5.5rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+li img {
+  width: 15%;
+}
+
+span {
+  color: white;
+  font-size: 10px;
+}
+
+.visa {
+  width: 80%;
 }
