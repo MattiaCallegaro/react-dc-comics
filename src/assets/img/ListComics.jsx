@@ -162,12 +162,24 @@ const ListComics = () => {
         <section id="fumetti">
 
             <div className="card-container">
-                <div className="prod-card">
+                {/* <div className="prod-card">
                     <img src="https://imgs.search.brave.com/aUNyvZBXUulb963JH7KnQm9AMr8bcBoLsiHREOqayIU/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOWZm/ZWYzMDMtMGZhYy00/OGRkLTg3ODctYzUy/NTk0MDk2ODAwXzEu/MTc1ZDk1Mjg2NzY0/OGEwOTczMTY2NGMy/MTE1NjNlYWIuanBl/Zz9vZG5XaWR0aD02/MTImb2RuSGVpZ2h0/PTYxMiZvZG5CZz1m/ZmZmZmY" alt="" />
                     <h3>ACTION COMICS</h3>
-                </div>
+                </div> */}
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
+                <ComicCard />
 
-
+                {/* 
                 <div className="prod-card">
                     <img src="https://imgs.search.brave.com/OU2E3_3vA7flyv-SJ3TcFW1d99KDlp5ZfmW9ylLLFDo/rs:fit:1012:1200:1/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LnN1/cGVycG91dm9pci5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDcvQW1lcmlj/YW4tVmFtcGlyZS0x/OTc2LTAxLWNvdi1B/bGJ1cXVlcnF1ZS0y/MDIwLmpwZz9yZXNp/emU9MTAxMiUyQzE1/NTYmc3NsPTE" alt="" />
                     <h3>AMERICAN VAMPIRE 1976</h3>
@@ -231,7 +243,7 @@ const ListComics = () => {
                 <div className="prod-card">
                     <img src="https://imgs.search.brave.com/bf_FlGnymAgmvweY8YiLAcyy600JdSMl_jHpdR3t5ro/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvNTA5/M2IxOTEtZTkzZS00/NTJjLThhYTQtYTEw/ZDY0ZTcxN2E5LjA5/N2UwZWM5NDgzYzky/OGExMjY4Nzk1Nzk2/NTliZWNjLmpwZWc_/b2RuV2lkdGg9NjEy/Jm9kbkhlaWdodD02/MTImb2RuQmc9ZmZm/ZmZm" alt="" />
                     <h3>CATWOMAN</h3>
-                </div>
+                </div> */}
             </div>
         </section>
     )
