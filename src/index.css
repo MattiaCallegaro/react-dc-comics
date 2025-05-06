@@ -95,6 +95,23 @@ span {
   width: 80%;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.prod-card {
+  flex-basis: 20%;
+  padding: 20px;
+
+
+}
+
+.prod-card img {
+  display: block;
+}
+
 /* `Footer */
 
 footer {
