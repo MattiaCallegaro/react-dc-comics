@@ -56,17 +56,17 @@ ul li a:active {
 }
 
 section {
-  display: flex;
-  align-items: center;
-  background-color: rgb(210, 202, 202);
-  height: 4.5rem;
+  background-color: rgb(36, 35, 35);
+  height: 100%;
 }
 
 /* `MAIN */
 section h3 {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-left: 10rem;
 }
+
+
 
 menu {
   display: flex;
@@ -98,19 +98,22 @@ span {
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+
   margin-top: 2rem;
 }
 
 .prod-card {
-  flex-basis: 20%;
-  padding: 20px;
-
-
+  flex-basis: calc((100% - 100px) / 6);
+  padding: 10px;
 }
 
 .prod-card img {
-  display: block;
+  width: 100%;
+  aspect-ratio: 1;
 }
+
+
 
 /* `Footer */
 
