@@ -1,8 +1,9 @@
+import ListComics from "../ListComics"
 
 const Main = () => {
     return <main>
         <section>
-            <h3>--Content goes here--</h3>
+            <ListComics />
         </section>
         <menu>
             <ul>

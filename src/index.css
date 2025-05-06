@@ -58,7 +58,7 @@ ul li a:active {
 section {
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: rgb(210, 202, 202);
   height: 4.5rem;
 }
 
