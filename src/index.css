@@ -28,10 +28,10 @@ a {
 figure {
   display: flex;
   align-items: center;
-  margin-left: 20rem;
+  margin-left: 10rem;
   margin-top: 15px;
   margin-bottom: 10px;
-  max-width: 50px;
+  max-width: 80px;
 }
 
 ul {
@@ -42,12 +42,13 @@ ul {
 }
 
 figure ul {
-  margin-left: 25rem;
+  margin-left: 10rem;
+  width: 100%;
 }
 
-ul li a {
+figure ul li a {
   padding: 15px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 ul li a:hover,
@@ -162,7 +163,7 @@ footer {
 }
 
 .footer-col {
-  padding: 10px;
+
   margin-top: 30px;
   margin-bottom: 30px;
 
@@ -172,18 +173,18 @@ footer {
   font-size: 17px;
   font-weight: 600;
   color: white;
-  margin-left: 14px;
+  margin-left: 28px;
 
 }
 
 .footer-col ul {
-  margin: 0px;
-  padding: 0px;
+  padding: 20px;
   display: block;
 }
 
 .footer-col ul li a {
   color: white;
+  padding: 10px;
 }
 
 .footer-bottom {
