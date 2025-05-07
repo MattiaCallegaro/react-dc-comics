@@ -100,7 +100,7 @@ span {
   flex-wrap: wrap;
   align-self: center;
   text-align: center;
-  gap: 20px;
+  gap: 10px;
   margin-left: 4rem;
   margin-right: 4rem;
   margin-top: 2rem;
@@ -110,11 +110,13 @@ span {
 
 .prod-card {
 
-  flex-basis: calc((100% - 100px) / 6);
+  flex-basis: calc(100% / 6 - 20px);
   margin-top: 40px;
   margin-bottom: 40px;
+}
 
-
+.prod-card h4 {
+  color: white;
 }
 
 .prod-card img {

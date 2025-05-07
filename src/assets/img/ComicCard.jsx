@@ -4,7 +4,7 @@ const ComicCard = (props) => {
     return (
         <div className="prod-card">
             <img src={props.src} />
-            <h3>{props.title}</h3>
+            <h4>{props.title}</h4>
         </div>
     );
 };
