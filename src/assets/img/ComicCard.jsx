@@ -3,8 +3,8 @@
 const ComicCard = (props) => {
     return (
         <div className="prod-card">
-            <img src={props.image} />
-            <h4>{props.title}</h4>
+            <img src={props.comic.thumb} />
+            <h4>{props.comic.title}</h4>
         </div>
     );
 };

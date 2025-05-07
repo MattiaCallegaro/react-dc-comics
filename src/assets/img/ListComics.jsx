@@ -65,7 +65,7 @@ const ListComics = () => {
             id: 5,
             title: "Batman #56",
             description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-            thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+            thumb: "https://imgs.search.brave.com/jgxYlrx442aozemzjqdmCsd9DkIkRollJp1T8sG8TfE/rs:fit:720:1106:1/g:ce/aHR0cHM6Ly9veXN0/ZXIuaWduaW1ncy5j/b20vd29yZHByZXNz/L3N0Zy5pZ24uY29t/LzIwMTgvMTAvU1RM/MDk3MDk1LTcyMHgx/MTA2LmpwZw",
             price: "$3.99",
             series: "Batman",
             sale_date: "2018-10-03",
@@ -160,21 +160,13 @@ const ListComics = () => {
     ];
     return (
         <section id="fumetti">
-
+            {/* `CON MAP MI CREO UNA COPIA DI ARRAY E MI CREO SOLO UNA CARD SEMPRE CON I PROPS */}
             <div className="card-container">
+                {comics.map((comic) => (
+                    //metodo con key perchè id è univoco e interpolazione
+                    <ComicCard key={`comic-${comic.id}`} comic={comic} />
 
-                <ComicCard title={comics[0].title} image={comics[0].thumb} />
-                <ComicCard title={comics[1].title} image={comics[1].thumb} />
-                <ComicCard title={comics[2].title} image={comics[2].thumb} />
-                <ComicCard title={comics[3].title} image={comics[3].thumb} />
-                <ComicCard title={comics[4].title} image={comics[5].thumb} />
-                <ComicCard title={comics[5].title} image={comics[5].thumb} />
-                <ComicCard title={comics[6].title} image={comics[6].thumb} />
-                <ComicCard title={comics[7].title} image={comics[7].thumb} />
-                <ComicCard title={comics[8].title} image={comics[8].thumb} />
-                <ComicCard title={comics[9].title} image={comics[9].thumb} />
-                <ComicCard title={comics[10].title} image={comics[10].thumb} />
-                <ComicCard title={comics[11].title} image={comics[11].thumb} />
+                ))}
 
 
 
